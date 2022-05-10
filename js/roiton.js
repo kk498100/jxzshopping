@@ -468,7 +468,7 @@ function sendEmail() {
                     $('.toast-body').html('<strong>'+ myObj['status'] +' : </strong> '+ myObj['message']);
 
                     setTimeout(function(){
-                        location.href="index.php";
+                        location.href="../index.html";
                     },1000);
                 }else if(myObj['status']=='Error'){
                     $('#message').toast('show').addClass('bg-danger').removeClass('bg-success bg-warning');
